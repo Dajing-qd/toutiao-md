@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <h1>搭架子</h1>
+    <!-- 路由的出口，匹配的路由渲染的位置 -->
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+  name: 'App'
+}
+</script>
 
 <style lang="less">
 #app {
