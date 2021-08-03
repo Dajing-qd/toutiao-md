@@ -1,6 +1,3 @@
-/**
- * 全局样式
- */
 @font-face {
   font-family: "toutiao";
   /* Project id 2706565 */
@@ -72,17 +69,4 @@
 }
 .toutiao-zuopin:before {
   content: "\e613";
-}
-body {
-  background-color: #f5f7f9;
-}
-/* 头部标题栏样式 */
-.app-nav-bar {
-  background-color: #3296fa !important;
-}
-.app-nav-bar .van-nav-bar__title {
-  color: #fff;
-}
-.app-nav-bar .van-icon {
-  color: #fff !important;
 }
